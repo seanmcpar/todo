@@ -78,9 +78,7 @@ public class TodoService {
 
         handleTodoItemCompletedChanges(updates, todo);
 
-        updates.forEach((k, v) -> {
-            updateField(k, v, todo);
-        });
+        updates.forEach((k, v) -> updateField(k, v, todo));
         return saveAndReturnDTO(todo);
     }
 
