@@ -4,10 +4,7 @@ package com.sean.todo.dto;
 import com.sean.todo.model.TodoItem;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
 
 import java.util.Date;
 

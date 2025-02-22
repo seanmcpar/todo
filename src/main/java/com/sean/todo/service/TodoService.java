@@ -90,7 +90,7 @@ public class TodoService {
             field.setAccessible(true);
             field.set(todoItem, fieldValue);
 
-        } catch (final NoSuchFieldException |  IllegalAccessException exception) {
+        } catch (final NoSuchFieldException | IllegalAccessException exception) {
             throw new UpdateInvalidException("Field " + " is not updatable.");
         }
     }
